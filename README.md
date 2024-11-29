@@ -35,7 +35,6 @@ https://github.com/user-attachments/assets/bf31ce46-11a0-4653-9615-a66df64cab32
 
 - HTML
 - CSS
-- JavaScript
 
 
 Copyright :copyright: 2024 - Challenge Portfólio
