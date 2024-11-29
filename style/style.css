@@ -1,0 +1,344 @@
+/* Este repositório base foi criado para te ajudar caso você não saiba como começar. Lembre-se de que o portfólio é a sua carta de apresentação e você deve dar a sua cara. Por isso, convidamos você a personalizá-lo de acordo com o seu estilo e preferências; não se limite apenas ao layout proposto no Figma. */
+:root {
+    --cor-de-fundo1:#7c90db;
+    --cor-de-fundo2: #8b85c1;
+    --cor-de-fundo3: #d4cdf4;
+    --cor-de-fundo-menu: ;
+    --cor-do-link: #1a1423;
+    --cor-do-link-hover: #e2e4f6;
+    --cor-do-cabecalho: #e2e4f6;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor-de-fundo1), var(--cor-de-fundo2), var(--cor-de-fundo3));
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-do-link);
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 1.5rem;
+    height: 3.19rem;
+    width: 8rem;
+    background-color: rgb(241, 194, 253);
+    border: none;
+    outline: none;
+    box-shadow: 4px 4px 1px #7c90db;
+ }
+
+button:hover,
+button:focus {
+    background-color: #b8b1f5;
+    transition: 1s;
+}
+
+
+a:hover,
+a:focus {
+    color: var(--cor-do-link-hover);
+    transition: 0.5s;
+}
+
+/* cabeçalho */
+.cabecalho h1 {
+    font-size: 1rem;
+    color: var(--cor-do-cabecalho);
+}
+
+/* apresentação */
+
+.apresentacao__conteiner-foto-titulo-e-subtitulo h2 {
+    font-size: 2rem;
+}
+
+.apresentacao__conteiner-foto-titulo-e-subtitulo  {
+    font-size: 1rem;
+}
+
+
+
+/* contato */
+.contato__formulario {
+    width: 41rem;
+}
+
+.contato__campo {
+    height: 3.5rem;
+    padding-left: 1rem;
+    border-radius: 1.5rem;
+}
+
+.contato__campo--textarea {
+    height: 8.31rem;
+    padding-left: 1rem;
+    padding-top: 3%;
+    border-radius: 1.5rem;
+}
+
+.contato__botao {
+    border-radius: 1.5rem;
+    height: 3.19rem;
+    width: 10.3rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.contato__formulario h2 {
+    font-size: 2.5rem;
+}
+
+
+
+/* ------------------------------ Responsividade ---------------------------------------*/
+
+/* Tablets e telas maiores */
+@media (min-width: 768px) {
+    .cabecalho__titulo {
+        color: var(--cor-do-cabecalho);
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .navegacao__lista {
+        display: none;
+    }
+    
+    .navegacao__elemento a {
+        font-size: 1.2rem;
+    }
+    /* ------------------------------ Seção Apresentação ------------------------------*/
+    
+    .apresentacao__conteiner-foto-titulo-e-subtitulo h2 {
+        font-size: 2rem;
+    }
+    
+    .apresentacao__conteiner-foto-titulo-e-subtitulo  {
+        font-size: 1.5rem;
+    }
+    
+    .redes {
+        font-size: 1.5rem;
+    }
+    
+    /* ------------------------------ Seção Sobre mim ----------------------------------*/
+    
+    .sobre-mim p {
+        font-size: 1.5rem;
+    }
+    
+    .sobre-mim h2 {
+        font-size: 2.5rem;
+    }
+    
+    .sobre-mim img {
+        max-width: 30rem;
+    }
+    
+    
+    /*------------------------------ Seção de Habilidades ------------------------------*/
+    
+    .habilidades h2 {
+        font-size: 2.5rem;
+    }
+    
+    .habilidades p {
+        font-size: 1.5rem;
+    }
+    
+    .habilidades__elemento:hover,
+    .habilidades__elemento:focus {
+        color: var(--cor-do-link-hover);
+        transition: 0.5s;
+    } 
+    
+    
+    /*------------------------------ Seção de Hobbies --------------------------------*/
+    .hobbies__elemento img {
+        max-width: 2rem;
+    }
+    
+    
+    .hobbies h2 {
+        font-size: 2.5rem;
+    }
+    
+    .hobbies p {
+        font-size: 1.5rem;
+    }
+    
+    .hobbies__nome:hover,
+    .hobbies__nome:focus {
+        color: var(--cor-do-link-hover);
+        transition: 0.5s;
+    }
+    
+    /*------------------------------ Seção de Formação --------------------------------*/
+    
+    .formacao__elemento img {
+        max-width: 20rem;
+    }
+    
+    .formacao h2 {
+        font-size: 2.5rem;
+    }
+    
+    /*------------------------------ Seção de Projetos --------------------------------*/
+    
+    .projetos h2 {
+        font-size: 2.5rem;
+    }
+    
+    .projetos__conteiner img {
+        min-width: 40rem;
+    }
+    
+    /*------------------------------ Seção de Contato ---------------------------------*/
+    .contato__formulario {
+        width: 41rem;
+    }
+    
+    .contato__campo {
+        height: 3.5rem;
+        padding-left: 1rem;
+        border-radius: 1.5rem;
+    }
+    
+    .contato__campo--textarea {
+        height: 8.31rem;
+        padding-left: 1rem;
+        padding-top: 3%;
+        border-radius: 1.5rem;
+    }
+    
+    .contato__botao {
+        border-radius: 1.5rem;
+        height: 3.19rem;
+        width: 10.3rem;
+    }
+    
+    
+    .contato__formulario h2 {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    /* ------------------------------ Seção Menu -------------------------------*/
+.cabecalho__logo {
+    max-width: 80px; /* Ajuste para telas pequenas */
+}
+
+.cabecalho__titulo {
+    color: var(--cor-do-cabecalho);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.navegacao__lista {
+    display: none;
+}
+
+.navegacao__elemento a {
+    font-size: 1.2rem;
+}
+/* ------------------------------ Seção Apresentação ------------------------------*/
+
+.apresentacao__titulo {
+    font-size: 4rem;
+}
+
+.apresentacao__subtitulo {
+    font-size: 2.25rem;
+}
+
+.redes {
+    font-size: 1.5rem;
+}
+
+/* ------------------------------ Seção Sobre mim ----------------------------------*/
+
+.sobre-mim p {
+    font-size: 1.5rem;
+}
+
+.sobre-mim h2 {
+    font-size: 2.5rem;
+}
+
+.sobre-mim img {
+    max-width: 30rem;
+}
+
+
+/*------------------------------ Seção de Habilidades ------------------------------*/
+
+.habilidades h2 {
+    font-size: 2.5rem;
+}
+
+.habilidades p {
+    font-size: 1.5rem;
+}
+
+.habilidades__elemento:hover,
+.habilidades__elemento:focus {
+    color: var(--cor-do-link-hover);
+    transition: 0.5s;
+} 
+
+
+/*------------------------------ Seção de Hobbies --------------------------------*/
+.hobbies__elemento img {
+    max-width: 2rem;
+}
+
+
+.hobbies h2 {
+    font-size: 2.5rem;
+}
+
+.hobbies p {
+    font-size: 1.5rem;
+}
+
+.hobbies__nome:hover,
+.hobbies__nome:focus {
+    color: var(--cor-do-link-hover);
+    transition: 0.5s;
+}
+
+/*------------------------------ Seção de Formação --------------------------------*/
+
+.formacao__elemento img {
+    max-width: 20rem;
+}
+
+.formacao h2 {
+    font-size: 2.5rem;
+}
+
+/*------------------------------ Seção de Projetos --------------------------------*/
+
+.projetos h2 {
+    font-size: 2.5rem;
+}
+
+.projetos__conteiner img {
+    min-width: 40rem;
+}
+
+/*------------------------------ Seção de Contato ---------------------------------*/
+}
