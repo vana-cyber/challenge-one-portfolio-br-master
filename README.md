@@ -22,7 +22,7 @@ O challenge portfólio possibilita uma "vitrine" para os projetos desenvolvidos 
 
 ## Deploy da Aplicação :dash:
 
-> [Clique aqui para acessar o deploy](https://decodificador-de-texto-two-beryl.vercel.app/).
+> [Clique aqui para acessar o deploy](https://challenge-one-portfolio-br-master-one.vercel.app/).
 
 
 
